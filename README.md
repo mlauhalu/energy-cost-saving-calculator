@@ -1,6 +1,13 @@
 # energy-cost-saving-calculator
 Creates entities in Home Assistant to monitor energy cost saving for common tariff contract compared to spot price contract
 
+<table>
+  <tr>
+    <td valign="top"><img src="https://i.imgur.com/lw9ifDX.png"></td>
+    <td valign="top"><img src="https://i.imgur.com/x4viHvi.png"></td>
+  </tr>
+ </table>
+
 **Needed entities in Home Assistant:**
 - ```sensor.house_total_energy``` - Total energy consumption sensor in kWh. Can be retrieved through e.g. [Home Assistant Glow](https://github.com/klaasnicolaas/home-assistant-glow)
 - ```sensor.nordpool_kwh_fi_eur_2_10_0``` - Current spot price (without VAT) in your energy market. Use instructions on [Nord Pool integration for Home Assistant](https://github.com/custom-components/nordpool)
